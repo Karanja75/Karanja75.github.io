@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+    <!--  -->
+    <head>
+        <title>Fred Gitonga  </title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <!-- favicon -->
+        <link  rel="icon" href="static/favicon.ico">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <!-- css -->
+        <link rel="stylesheet" href="static/style.css" />
+        <!-- fonts -->
+        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/calibre" />
+    </head>
+    <!--  -->
+
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const menuToggle = document.querySelector('.menu-toggle');
+          const navMenu = document.querySelector('.nav-menu');
+          
+          menuToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+          });
+        
+          // Close menu when clicking outside
+          document.addEventListener('click', function(event) {
+            if (!event.target.closest('.nav-container')) {
+              navMenu.classList.remove('active');
+            }
+          });
+        });
+        </script>
+        </head>
+        <body>
+        <div class="nav-container">
+          <div class="logo">
+            <svg viewBox="0 0 120 120" width="40px" height="40px">
+              <circle cx="60" cy="60" r="55" fill="none" stroke="currentColor" stroke-width="2"/>
+              <text x="60" y="75" text-anchor="middle" fill="currentColor" style="font-size: 42px;">FG</text>
+            </svg>
+          </div>
+          <button class="menu-toggle">
+            <svg viewBox="0 0 24 24">
+              <rect y="2" width="24" height="2" rx="1"/>
+              <rect y="11" width="24" height="2" rx="1"/>
+              <rect y="20" width="24" height="2" rx="1"/>
+            </svg>
+          </button>
+          <nav class="nav-menu">
+            <a href="#intro">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#blog">Blogs</a>
+            <!-- <a href="#stats">Skills</a> -->
+            
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        
+        <section id="intro">
+          <div class="intro-content">
+            <div class="intro-image">
+
+            </div>
+            <h1>Fred Gitonga</h1>
+            <p> A programmer with an interest in solving complex problems through code. With a background in mathematics and a deep interest in building scalable and efficient systems, I specialize in developing clean, maintainable software solutions. </p>
+            <div class="button-container">
+              <a href="#contact" title="Hire Me" class="button stroke smoothscroll">HIRE ME</a>
+              <a href="static/FredMunene2025CV .pdf" title="Download CV" download="FredMGitonga_CV" class="button button-primary">DOWNLOAD CV</a>
+          </div>
+          </div>
+          <!-- <div class="scroll-down">
+            <div class="scroll-arrow"></div>
+          </div> -->
+        </section>
+        <!-- about/skills -->
+        <section id="about">    
+            <div class="section-intro">
+                <div class="col-twelve">
+                    <h2>Resume</h2>
+                    <!-- <h4>More of my credentials.</h4> -->
+                    <!-- <p class="lead">I am open to opportunities in teaching and translation</p> -->
+                </div>
+            </div>
+        
+            <div class="resume-timeline">
+                <div class="resume-header">
+                    <h3>Work Experience</h3>
+                </div>
+        
+                <div class="timeline-wrap">
+                    <div class="timeline-block">
+                        <div class="timeline-header">
+                            <h4>Junior Software Developer</h4>
+                            <p>April 2024 - Present</p>
+                        </div>
+                        <div class="timeline-ico">
+                          <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Zone01 (Kisumu - Kenya)</h4>
+                            <p>Building web applications and developing software applications. Proficient in debugging, problem-solving, and implementing solutions using languages like Go and C. Strong understanding of software development principles, version control, testing, and web technologies. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="resume-timeline">
+                <div class="resume-header">
+                    <h3>Education</h3>
+                </div>
+        
+                <div class="timeline-wrap">
+                    <div class="timeline-block">
+                        <div class="timeline-header">
+                            <h4>Undergraduate Degree</h4>
+                            <p>Sep 2017 - Sep 2021</p>
+                        </div>
+                        <div class="timeline-ico">
+                            <i class="fa fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>University of Nairobi (Nairobi - Kenya)</h4>
+                            <p>Gained strong analytical and problem-solving skills. Applied mathematical modeling, statistical analysis, and programming techniques to various projects.Experienced in applying mathematical concepts to solve real-world problems. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Add additional sections for Education, Scholarships, etc., similar to above -->
+        
+        </section>
+
+        </section>
+        <div class="projects-languages-container">
+            <!-- projects -->
+            <section id="projects">
+                <div class="projects">
+                    <h2>Projects </h2>
+                    <p>
+                        <a class="repo-tag" href="https://github.com/FredMunene/ascii-art" target="_blank">ASCII-ART</a>
+                        <a class="site-tag" href="https://asciiartpicasso.onrender.com/" target="_blank">ASCII-ART</a>
+                    </p>
+                    <p>
+                        <a class="repo-tag" href="https://github.com/FredMunene/artistHub" target="_blank">GROUPIE TRACKER</a>
+                    </p>
+                    <p>
+                        <a class="site-tag" href="https://laureenwm.github.io" target="_blank">PORTFOLIO WEBSITE</a>
+                    </p>
+                    <p>
+                        <a class="repo-tag" href="https://github.com/FredMunene/atm-management-system" target="_blank">ATM MANAGEMENT SYSTEM</a>
+                    </p>
+                    <p>
+                        <a class="repo-tag" href="https://github.com/FredMunene/imageConvertor" target="_blank">IMAGE CONVERTOR</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section id="stats" class="count-up">
+                <h2>Languages </h2>
+                <div class="row">
+                    <div class="bgrid stat">
+                        <div class="icon-part">
+                            <i class="fa-brands fa-golang"></i>
+                        </div>
+                        <h5 class="stat-title">Go</h5>
+                    </div>
+                    
+                    <div class="bgrid stat">
+                        <div class="icon-part">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <h5 class="stat-title">JavaScript</h5>
+                    </div>
+                    
+                    <div class="bgrid stat">
+                        <div class="icon-part">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <h5 class="stat-title">HTML5</h5>
+                    </div>
+                    
+                    <div class="bgrid stat">
+                        <div class="icon-part">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h5 class="stat-title">SQL</h5>
+                    </div>
+                    
+                    <div class="bgrid stat">
+                        <div class="icon-part">
+                            <i class="fa-brands fa-docker"></i>
+                        </div>
+                        <h5 class="stat-title">Docker</h5>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- blogs -->
+        <section id="blog">
+            <h2>Blogs </h2>
+            <div class="blog-container">
+                <!-- Blog Card 1 -->
+                <a href="https://dev.to/fredgitonga/pointers-in-go-explained-1fof" target="_blank" class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://media2.dev.to/dynamic/image/,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fazqqgtl9r1g42jo40faj.png" alt="Blog Post 1">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Pointers in Go </h3>
+                        <p>Beginner-friendly guide explaining pointers in Go, using analogies and examples to demystify memory addresses and value manipulation.</p>
+                    </div>
+                </a>
+        
+                <!-- Blog Card 2 -->
+                <a href="https://dev.to/fredgitonga/errors-are-values-a-guide-to-error-handling-in-go-3ohi" target="_blank"  class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://media2.dev.to/dynamic/image/,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjb8w85jx3l94o1v2onsz.png" alt="Blog Post 2">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Error Handling in Go</h3>
+                        <p>A concise guide on Go's explicit, value-based error handling and best practices for developers.</p>
+                    </div>
+                </a>
+                <!-- Blog Card 3 -->
+                <a href="https://dev.to/fredgitonga/my-tdd-journey-how-it-saved-my-go-code-and-my-sanity-4a6f" target="_blank"  class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://media2.dev.to/dynamic/image/,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftn4v8mduf4bnrsohoxhu.png" alt="Blog Post 2">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Test Driven Development in Go </h3>
+                        <p>A personal journey showing how Test-Driven Development in Go improved code quality, focus, and sanity.</p>
+                    </div>
+                </a>
+                <!-- Blog Card 4 -->
+                <a href="https://dev.to/fredgitonga/building-a-simple-restful-api-in-go-for-managing-blog-posts-41h3" target="_blank" class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://media2.dev.to/dynamic/image/format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F88nel10q3vciv1yhw54q.png" alt="Blog Post 2">
+                    </div>
+                    <div class="blog-content">
+                        <h3>A Simple RESTful API in Go  </h3>
+                        <p>A step-by-step guide to building a basic blog post CRUD RESTful API using Go.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+        <!-- services -->
+        <section id="services">
+          <div class="service-intro">
+              <h2>Services</h2>
+              <h1>What Can I Do For You?</h1>
+          </div>
+      
+          <div class="services-content">
+              <div class="services-list">
+                  <div class="service">
+                      <span class="icon">
+                          <i class="fas fa-globe"></i>
+                      </span>
+                      <div class="service-content">
+                          <h3>WEB DEVELOPMENT</h3>
+                          <p class="desc">Deliver responsive web development services, including frontend and backend development, optimizing performance, ensuring security, and integrating APIs for seamless functionality.</p>
+                      </div>
+                  </div>
+      
+                  <div class="service">
+                      <span class="icon">
+                          <i class="fas fa-clock"></i>
+                      </span>
+                      <div class="service-content">
+                          <h3>UX/UI DESIGN</h3>
+                          <p class="desc">Provide  user research, wireframing, prototyping, visual design, and usability testing to create intuitive, user-centered digital experiences.</p>
+                      </div>
+                  </div>
+      
+                  <div class="service">
+                      <span class="icon">
+                          <i class="fas fa-book"></i>
+                      </span>
+                      <div class="service-content">
+                          <h3>BACKEND DEVELOPMENT</h3>
+                          <p class="desc">Develop robust backend systems, ensuring secure, efficient data handling and smooth logic, with optimized code and database queries for high performance.</p>
+                      </div>
+                  </div>
+      
+                  <div class="service">
+                      <span class="icon">
+                          <i class="fas fa-heart"></i>
+                      </span>
+                      <div class="service-content">
+                          <h3>API DEVELOPMENT AND INTEGRATION</h3>
+                          <p class="desc">Design, develop, and implement RESTful APIs for seamless data exchange, integrating third-party APIs to enhance client functionality while ensuring top-tier security, scalability, and optimized performance.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="nav-dots"></div>
+          </div>
+      </section>
+
+        <!-- contact/call to action -->
+        <section id="contact">
+          <!-- Contact Introduction -->
+          <div class="section-intro">
+              <h2>Contact</h2>
+              <h1>I'd Love To Hear From You.</h1>
+              <p class="lead">Reach out for innovative solutions.</p> <p class="lead"> Let's embark on this journey together—contact me today to get started!</p>
+          </div>
+  
+          <!-- Contact Form -->
+          <div class="form-container">
+            <form id="contactForm">
+                <div class="form-group">
+                    <!-- <label for="name">Full Name</label> -->
+                    <input type="text" id="name" name="name" placeholder="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <!-- <label for="email">Email</label> -->
+                    <input type="email" id="email" name="email" placeholder="johndoe@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <!-- <label for="subject">Subject</label> -->
+                    <input type="subject" id="subject" name="subject" placeholder="Subject">
+                </div>
+                
+                <div class="form-group">
+                    <!-- <label for="message">Your Message</label> -->
+                    <textarea id="message" name="message" rows="5"placeholder="message" required></textarea>
+                </div>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="feedbackMessage">
+
+            </div>
+        </div>    
+  
+          <!-- Contact Information -->
+          <div class="contact-info">
+              <div class="col-four">
+                  <a href="https://maps.app.goo.gl/VPKtUB7XYGhFUB2n8" target="_blank">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                  </a>
+                  <h5>WHERE TO FIND ME</h5>
+                  <p>Kisumu<br>Nairobi, Kenya</p>
+              </div>
+              <div class="col-four">
+                  <a style="text-decoration:none;" href="mailto:mfredgitonga@gmail.com">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                  </a>
+                    <h5>EMAIL ME AT</h5>
+                    <p>mfredgitonga@gmail.com</p>
+                  
+              </div>
+              <div class="col-four">
+                  <a href="https://api.whatsapp.com/send?phone=254743913802" target="_blank">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                  </a>
+                  <h5>CALL ME AT</h5>
+                  <p>Phone: (+254) 743 913802</p>
+              </div>
+          </div>
+        <section>
+         <!-- footer -->
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-row">
+
+              <div class="social">
+                <ul class="footer-social">
+                  <li><a href="https://dev.to/fredgitonga" target="_blank"><i class="fab fa-dev"></i></a></li>
+                  <li><a href="https://x.com/Gitonga2050" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/fredgitonga/" target="_blank"><i class="fab fa-linkedin-in"></i>
+                  </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="copyright">
+              <span>© Fred Gitonga </span>
+            </div>
+          </div>
+          <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+              <i class="fas fa-arrow-up"></i>
+            </a>
+          </div>
+        </footer>
+        <script>
+          document.getElementById("contactForm").addEventListener("submit", async function (e){
+            e.preventDefault();
+
+            const formData = new FormData(this);
+
+            const feedbackMessage = document.getElementById("feedbackMessage");
+            feedbackMessage.textContent = "";
+
+          
+            try {
+              const response = await fetch("/submit", {
+                method: "POST",
+                body: formData
+              });
+
+              if (response.ok){
+                feedbackMessage.textContent = "Message sent successfully!";
+                feedbackMessage.style.color = "green";
+                this.reset();
+              } else {
+                feedbackMessage.textContent = "Failed to send message. Please try again after a while";
+                feedbackMessage.style.color = "red";
+              }
+
+              setTimeout(() => {
+                feedbackMessage.textContent = "";
+              },4000);
+            } catch (error){
+              feedbackMessage.textContent = "An error occurred. Please try again.";
+              feedbackMessage.style.color = "red";
+              console.error("Error sending email:", error)
+            }
+          });
+        </script>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+              const servicesList = document.querySelector('.services-list');
+              const services = document.querySelectorAll('.service');
+              const navDots = document.querySelector('.nav-dots');
+              let currentIndex = 0;
+              const serviceWidth = 310; // Width of service + gap
+          
+              // Create navigation dots
+              const numDots = Math.max(0, services.length - 2);
+              for(let i = 0; i < numDots; i++) {
+                  const dot = document.createElement('span');
+                  dot.classList.add('dot');
+                  if (i === 0) dot.classList.add('active');
+                  navDots.appendChild(dot);
+                  
+                  dot.addEventListener('click', () => {
+                      currentIndex = i;
+                      updateCarousel();
+                  });
+              }
+          
+              const dots = document.querySelectorAll('.dot');
+          
+              function updateCarousel() {
+                  const translation = -currentIndex * serviceWidth;
+                  servicesList.style.transform = `translateX(${translation}px)`;
+          
+                  services.forEach((service, index) => {
+                      const isVisible = index >= currentIndex && index < currentIndex + 3;
+                      service.style.opacity = isVisible ? '1' : '0';
+                      service.style.visibility = isVisible ? 'visible' : 'hidden';
+                  });
+          
+                  dots.forEach((dot, index) => {
+                      dot.classList.toggle('active', index === currentIndex);
+                  });
+              }
+          
+              updateCarousel();
+          });
+          </script>
+</body>
+</html>
