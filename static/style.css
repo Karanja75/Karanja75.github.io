@@ -928,10 +928,10 @@ button:hover {
 }
 
 .services-list {
-  display: flex;
-  transition: transform 0.5s ease;
-  gap: clamp(15px, 3vw, 30px);
-  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
 }
 
 .service {
@@ -1338,6 +1338,7 @@ section {
     font-size: clamp(1.4rem, 1.8vw, 1.6rem);  /* Slightly smaller on mobile but still larger than before */
   }
 }
+
 
 
 
