@@ -15,7 +15,7 @@ A portfolio website built to showcase my skills, projects, blogs, and more.
 1. Clone the repository:
     ```bash
     git clone https://github.com/FredMunene/FredMunene.github.io.git
-    cd FredMunene.github.io
+    cd Karanja75.github.io
     ```
 2.  Install dependencies
     ```bash
@@ -37,7 +37,7 @@ Access website at [http:\\localhost:3000](http:\\localhost:3000)
 
 ## Contact
 
-For any inquiries, feel free to reach out via email at [mfredgitonga@gmail.com](mailto:mfredgitonga@gmail.com).
+For any inquiries, feel free to reach out via email at [kenwarorwa@gmail.com](mailto:kenwarorwa@gmail.com).
 
 ## License
 
