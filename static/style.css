@@ -1,6 +1,6 @@
 :root {
   --main-color: #FF6B00;  /* Orange */
-  --bg-color: #000000;    /* Black */
+  --bg-color: #2F4F4F;    /* DarkSlateGrey */
   --text-color: #FFFFFF;  /* White */
   --accent-color: #007BFF; /* Blue */
   --text-muted: rgba(255, 255, 255, 0.7);
@@ -1338,6 +1338,7 @@ section {
     font-size: clamp(1.4rem, 1.8vw, 1.6rem);  /* Slightly smaller on mobile but still larger than before */
   }
 }
+
 
 
 
