@@ -331,7 +331,7 @@ p:has(> a:only-child) .repo-tag {
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 20px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .blog-card {
@@ -1338,6 +1338,7 @@ section {
     font-size: clamp(1.4rem, 1.8vw, 1.6rem);  /* Slightly smaller on mobile but still larger than before */
   }
 }
+
 
 
 
