@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+    <!--  -->
+    <head>
+        
+        <title>Ken Karanja </title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <!-- favicon -->
+        <link  rel="icon" href="static/favicon.ico">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <!-- css -->
+        <link rel="stylesheet" href="static/style.css" />
+        <!-- fonts -->
+        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/calibre" />
+    </head>
+    <!--  -->
+
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const menuToggle = document.querySelector('.menu-toggle');
+          const navMenu = document.querySelector('.nav-menu');
+          
+          menuToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+          });
+        
+          // Close menu when clicking outside
+          document.addEventListener('click', function(event) {
+            if (!event.target.closest('.nav-container')) {
+              navMenu.classList.remove('active');
+            }
+          });
+        });
+        </script>
+        </head>
+        <body>
+        <div class="nav-container">
+          <div class="logo">
+            <svg viewBox="0 0 120 120" width="40px" height="40px">
+              <circle cx="60" cy="60" r="55" fill="none" stroke="currentColor" stroke-width="2"/>
+              <text x="60" y="75" text-anchor="middle" fill="currentColor" style="font-size: 42px;">KK</text>
+            </svg>
+          </div>
+          <button class="menu-toggle">
+            <svg viewBox="0 0 24 24">
+              <rect y="2" width="24" height="2" rx="1"/>
+              <rect y="11" width="24" height="2" rx="1"/>
+              <rect y="20" width="24" height="2" rx="1"/>
+            </svg>
+          </button>
+          <nav class="nav-menu">
+            <a href="#intro">Home</a>
+            <a href="#about">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#blog">Blog</a>
+            <!-- <a href="#stats">Skills</a> -->
+            
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        
+        <section id="intro">
+          <div class="intro-content">
+            <div class="intro-image">
+
+            </div>
+            <h1>Ken Karanja</h1>
+            <p> 👋 Hi, I'm Ken Karanja. I am a results-oriented data analyst with hands-on experience in Power BI, Excel, Python, and SQL. I help organizations make informed, data-driven decisions that boost efficiency and profitability. </p>
+            <div class="button-container">
+              <a href="#contact" title="Hire Me" class="button stroke smoothscroll">HIRE ME</a>
+              <a href="static/Karanja-CV-24-09.pdf" title="Download CV" download="Karanja_CV" class="button button-primary">DOWNLOAD CV</a>
+          </div>
+          </div>
+          <!-- <div class="scroll-down">
+            <div class="scroll-arrow"></div>
+          </div> -->
+        </section>
+        <!-- about/skills -->
+        <section id="about">    
+            <div class="section-intro">
+                <div class="col-twelve">
+                    <h2>Resume</h2>
+                    <!-- <h4>More of my credentials.</h4> -->
+                    <!-- <p class="lead">I am open to opportunities in teaching and translation</p> -->
+                </div>
+            </div>
+        
+            <div class="resume-timeline">
+                <div class="resume-header">
+                    <h3>Work Experience</h3>
+                </div>
+        
+                <div class="timeline-wrap">
+                    <div class="timeline-block">
+                        <div class="timeline-header">
+                            <h4>Merchandising Executive</h4>
+                            <p>October 2023 - Present</p>
+                        </div>
+                        <div class="timeline-ico">
+                          <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Hela Intimates EPZ Ltd | Kenya</h4>
+                            <p>Overseeing pre-production activities is completed on time, and quality checks on raw materials are up to the Buyer's standard. </p>
+                            <p>Coordination of production planning, including cut-plans, pilot runs, and post-shipment reconciliations. </p>
+                            <p>Ensuring on-time global deliveries by managing logistics and monitoring factory output and input cycles. </p>
+                            <p>Daily tracking and adjusting raw material input, as well as the production cycles of the factory's garments.</p>
+                            <p>Conduct inventory and fabric reconciliations for audit compliance. </p>
+                            <p>Monitor finished goods quality to meet customer specifications. </p>
+                            <p>Facilitate locally sourced raw materials procurement through SAP S4/HANA. </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-wrap">
+                    <div class="timeline-block">
+                        <div class="timeline-header">
+                            <h4>Operations Executive</h4>
+                            <p>September 2022 - October 2023</p>
+                        </div>
+                        <div class="timeline-ico">
+                          <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Hela Intimates EPZ Ltd | Kenya</h4>
+                            <p>Analyzed and improved operational processes and supported supply chain planning. </p>
+                            <p>Maintained dashboards for shipment and sales performance using Excel and Power BI </p>
+                            <p>Generated sales reports using SAP and coordinated with logistics for timely shipments </p>
+                            <p>Handled record-keeping, stock counts, and verified shipping documents for accuracy. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-wrap">
+                    <div class="timeline-block">
+                        <div class="timeline-header">
+                            <h4>Management Trainee</h4>
+                            <p>January 2022 - September 2023</p>
+                        </div>
+                        <div class="timeline-ico">
+                          <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Hela Intimates EPZ Ltd | Kenya</h4>
+                            <p>Supported senior executives in supply chain functions, including inventory and shipment tracking. </p>
+                            <p>Created performance reports using SAP Excel for sales analysis. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-wrap">
+                    <div class="timeline-block">
+                        <div class="timeline-header">
+                            <h4>ICT Intern</h4>
+                            <p>September 2021 - December 2021</p>
+                        </div>
+                        <div class="timeline-ico">
+                          <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Chuka County Referral Hospital | Chuka</h4>
+                            <p>Provided technical support, configured hardware/software, and maintained secure systems. </p>
+                            <p>Managed hospital data, including patient records and billing. </p>
+                            <p>Trained staff on the new HMS software and collaborated across various departments to improve IT efficiency. </p>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+    
+            <div class="resume-timeline">
+                <div class="resume-header">
+                    <h3>Education</h3>
+                </div>
+        
+                <div class="timeline-wrap">
+                    <div class="timeline-block">
+                        <div class="timeline-header">
+                            <h4>Undergraduate Degree</h4>
+                            <p>Sep 2017 - Nov 2022</p>
+                        </div>
+                        <div class="timeline-ico">
+                            <i class="fa fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Kenya Methodist University (Meru - Kenya)</h4>
+                            <p>BSc. Mathematics & Computer Science </p>
+                            <p>Acquired various mathematical principles and software development concepts that set the foundation for my passion in data analysis and Python programming </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Add additional sections for Education, Scholarships, etc., similar to above -->
+        
+        </section>
+
+        </section>
+        <div class="projects-languages-container">
+            <!-- projects -->
+            <section id="projects">
+                <div class="projects">
+                    <h2>Projects </h2>
+                    <p>
+                        <a class="repo-tag" href="https://github.com/Karanja75/Power-BI-Profitability-Dashboard" target="_blank">PROFITABILITY DASHBOARD</a>
+                    </p>
+                    <p>
+                        <a class="repo-tag" href="https://github.com/Karanja75/Sales-Dashboard-visualization" target="_blank">SALES DASHBOARD</a>
+                    </p>
+                    <p>
+                        <a class="site-tag" href="https://github.com/Karanja75/Raw-Material-Costs-Reduction-Analysis-PPT" target="_blank">RMC COST REDUCTION</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section id="stats" class="count-up">
+                <h2>Skills and Tools </h2>
+                <div class="row">
+                    <div class="bgrid stat">
+                        <div class="icon-part">
+                            <img src="static/power-bi.png" alt="Power BI" width="40" height="40" />
+                        </div>
+                        <h5 class="stat-title">Power-BI</h5>
+                    </div>
+                    
+                    <div class="bgrid stat">
+                        <div class="icon-part">
+                            <img src="static/excel-icon.png" alt="Excel" width="40" height="40" />
+                        </div>
+                        <h5 class="stat-title">Ms. Excel</h5>
+                    </div>
+                    
+                    <div class="bgrid stat">
+                        <div class="icon-part">
+                            <img src="static/python-icon.png" alt="Python" width="40" height="40" />
+                        </div>
+                        <h5 class="stat-title">Python</h5>
+                    </div>
+                    
+                    <div class="bgrid stat">
+                        <div class="icon-part">
+                            <img src="static/sql-icon.png" alt="SQL" width="40" height="40" />
+                        </div>
+                        <h5 class="stat-title">SQL</h5>
+                    </div>
+                    
+                    <div class="bgrid stat">
+                        <div class="icon-part">
+                            <img src="static/Sap-MM.png" alt="SAP S/4(MM)" width="40" height="40" />
+                        </div>
+                        <h5 class="stat-title">SAP S/4(MM)</h5>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- blogs -->
+        <section id="blog">
+            <h2>Blogs </h2>
+            <div class="blog-container">
+                <!-- Blog Card 1 -->
+                <a href="https://dev.to/karanja_98/python-lists-3kfi" target="_blank" class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2F02s73l0baiurfa74buyr.png" alt="Blog Post 1">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Python Lists explained in F1 </h3>
+                        <p>Exploring Python lists through the lens of Formula 1 strategy—where coding meets the racetrack.🏁</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+        <!-- services -->
+        <section id="services">
+          <div class="service-intro">
+              <h1>Services</h1>
+              <h2>Let’s Work Together — Here’s What I Offer</h2>
+          </div>
+      
+          <div class="services-content">
+              <div class="services-list">
+                  <div class="service">
+                      <span class="icon">
+                          <i class="fas fa-chart-line"></i>
+                      </span>
+                      <div class="service-content">
+                          <h3>DATA ANALYTICS AND VISUALIZATION</h3>
+                          <p class="desc">I analyze large datasets using Excel, Power BI, and SQL to uncover actionable insights for business growth. I design dashboards and generate performance reports to support real-time decision-making.</p>
+                      </div>
+                  </div>
+      
+                  <div class="service">
+                      <span class="icon">
+                          <i class="fas fa-sync-alt"></i>
+                      </span>
+                      <div class="service-content">
+                          <h3>SAP S4 HANA PROCUREMENT EXPERTISE </h3>
+                          <p class="desc">Experienced in SAP S/4HANA (MM module) for managing sourcing and procurement processes.</p>
+                      </div>
+                  </div>
+      
+                  <div class="service">
+                      <span class="icon">
+                          <i class="fas fa-desktop"></i>
+                      </span>
+                      <div class="service-content">
+                          <h3>MERCHANDISING AND PRODUCTION PLANNING</h3>
+                          <p class="desc">I coordinate end-to-end merchandising operations — from sourcing trims to post-shipment reconciliations, as well as cut approvals, and ensuring on-time delivery in garment manufacturing.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="nav-dots"></div>
+          </div>
+        </section>
+        <!-- contact/call to action -->
+        <section id="contact">
+          <!-- Contact Introduction -->
+          <div class="section-intro">
+              <h1>Contact/Socials</h1>
+              <h2>I'd Love To Hear From You.</h2>
+              <p class="lead">I am currently open to new opportunities in data analytics, merchandising, and business intelligence.</p> <p class="lead"> Let’s connect and explore how I can bring value to your team—reach out today!</p>
+          </div>
+          <!-- Contact Information -->
+          <div class="contact-info">
+              <div class="col-four">
+                  <a href="https://maps.app.goo.gl/Bn3UNBji51wt5nmQ9" target="_blank">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                  </a>
+                  <h5>WHERE TO FIND ME</h5>
+                  <p>Athi River<br>Nairobi, Kenya</p>
+              </div>
+              <div class="col-four">
+                  <a style="text-decoration:none;" href="mailto:kenwarorwa@gmail.com">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                  </a>
+                    <h5>EMAIL ME AT</h5>
+                    <p>kenwarorwa@gmail.com</p>
+                  
+              </div>
+              <div class="col-four">
+                  <a href="https://api.whatsapp.com/send?phone=254702613834" target="_blank">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                  </a>
+                  <h5>CALL/TEXT ME AT</h5>
+                  <p>Phone: (+254) 92614965<br>WhatsApp: (+254) 702613834</p>
+              </div>
+          </div>
+        <section>
+         <!-- footer -->
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-row">
+
+              <div class="social">
+                <ul class="footer-social">
+                  <li><a href="https://www.linkedin.com/in/ken-karanja-864108105" target="_blank"><i class="fab fa-linkedin-in"></i>
+                  <li><a href="https://dev.to/karanja_98" target="_blank"><i class="fab fa-dev"></i></a></li>
+                  <li><a href="https://x.com/Karanja751" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="copyright">
+              <span>© Ken Karanja </span>
+            </div>
+          </div>
+          <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+              <i class="fas fa-arrow-up"></i>
+            </a>
+          </div>
+        </footer>
+        <script>
+          document.getElementById("contactForm").addEventListener("submit", async function (e){
+            e.preventDefault();
+
+            const formData = new FormData(this);
+
+            const feedbackMessage = document.getElementById("feedbackMessage");
+            feedbackMessage.textContent = "";
+
+          
+            try {
+              const response = await fetch("/submit", {
+                method: "POST",
+                body: formData
+              });
+
+              if (response.ok){
+                feedbackMessage.textContent = "Message sent successfully!";
+                feedbackMessage.style.color = "green";
+                this.reset();
+              } else {
+                feedbackMessage.textContent = "Failed to send message. Please try again after a while.";
+                feedbackMessage.style.color = "red";
+              }
+
+              setTimeout(() => {
+                feedbackMessage.textContent = "";
+              },4000);
+            } catch (error){
+              feedbackMessage.textContent = "An error occurred. Please try again.";
+              feedbackMessage.style.color = "red";
+              console.error("Error sending email:", error)
+            }
+          });
+        </script>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+              const servicesList = document.querySelector('.services-list');
+              const services = document.querySelectorAll('.service');
+              const navDots = document.querySelector('.nav-dots');
+              let currentIndex = 0;
+              const serviceWidth = 310; // Width of service + gap
+          
+              // Create navigation dots
+              const numDots = Math.max(0, services.length - 2);
+              for(let i = 0; i < numDots; i++) {
+                  const dot = document.createElement('span');
+                  dot.classList.add('dot');
+                  if (i === 0) dot.classList.add('active');
+                  navDots.appendChild(dot);
+                  
+                  dot.addEventListener('click', () => {
+                      currentIndex = i;
+                      updateCarousel();
+                  });
+              }
+          
+              const dots = document.querySelectorAll('.dot');
+          
+              function updateCarousel() {
+                  const translation = -currentIndex * serviceWidth;
+                  servicesList.style.transform = `translateX(${translation}px)`;
+          
+                  services.forEach((service, index) => {
+                      const isVisible = index >= currentIndex && index < currentIndex + 3;
+                      service.style.opacity = isVisible ? '1' : '0';
+                      service.style.visibility = isVisible ? 'visible' : 'hidden';
+                  });
+          
+                  dots.forEach((dot, index) => {
+                      dot.classList.toggle('active', index === currentIndex);
+                  });
+              }
+          
+              updateCarousel();
+          });
+          </script>
+</body>
+</html>
